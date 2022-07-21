@@ -250,7 +250,9 @@ input#credit_card {
 
 /*This aligns the 'payment method' title*/
 fieldset#paymentMethod {
-	text-align: left;  
+	text-align: left;
+	border-width: 0.05em;
+	border-color: grey;
 }
 
 
@@ -286,6 +288,8 @@ fieldset#memberInfo {
 fieldset#orderInfo {
 	padding-right: 150px;
 	text-align: right;
+	border-width: 0.05em;
+	border-color: grey;
 }
 
 
@@ -294,4 +298,9 @@ fieldset#orderInfo {
 fieldset#creditInfo {
 	padding-right: 150px;
 	text-align: right; 
+}
+
+fieldset#orderSub {
+	border-width: 0.05em;
+	border-color: grey;
 }
